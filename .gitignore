@@ -30,3 +30,21 @@
 *.exe
 *.out
 *.app
+
+**/cmake-build-debug
+**/build
+**/CMakeFiles
+**/.idea
+**/dist
+.vscode
+cmake-build-*
+.idea
+**.zip
+.env
+
+html/
+latex/
+
+ CMakeSettings.json
+ .vs/
+ out/
