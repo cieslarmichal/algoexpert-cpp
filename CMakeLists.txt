@@ -15,6 +15,7 @@ set(EASY_SOURCES
         src/easy/TransposeMatrix.cpp
         src/easy/FindClosestValueInBst.cpp
         src/easy/BranchSums.cpp
+        src/easy/NodeDepths.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
