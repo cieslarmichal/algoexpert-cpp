@@ -11,6 +11,7 @@ set(EASY_SOURCES
         src/easy/ValidateSubsequence.cpp
         src/easy/SortedSquaredArray.cpp
         src/easy/TournamentWinner.cpp
+        src/easy/NonConstructibleChange.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
