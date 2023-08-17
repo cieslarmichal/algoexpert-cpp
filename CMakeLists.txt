@@ -9,6 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED YES)
 set(EASY_SOURCES
         src/easy/TwoNumberSum.cpp
         src/easy/ValidateSubsequence.cpp
+        src/easy/SortedSquaredArray.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
