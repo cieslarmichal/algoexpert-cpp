@@ -22,8 +22,8 @@ std::vector<int> sortedSquaredArray2(std::vector<int> array)
     std::vector<int> result(array.size(), 0);
 
     int lowerIndex = 0;
-    int upperIndex = array.size() - 1;
-    int resultUpperIndex = result.size() - 1;
+    int upperIndex = static_cast<int>(array.size()) - 1;
+    int resultUpperIndex = static_cast<int>(result.size()) - 1;
 
     while (lowerIndex <= upperIndex)
     {

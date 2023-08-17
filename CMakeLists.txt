@@ -10,6 +10,7 @@ set(EASY_SOURCES
         src/easy/TwoNumberSum.cpp
         src/easy/ValidateSubsequence.cpp
         src/easy/SortedSquaredArray.cpp
+        src/easy/TournamentWinner.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
