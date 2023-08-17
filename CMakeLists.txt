@@ -12,6 +12,7 @@ set(EASY_SOURCES
         src/easy/SortedSquaredArray.cpp
         src/easy/TournamentWinner.cpp
         src/easy/NonConstructibleChange.cpp
+        src/easy/TransposeMatrix.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
