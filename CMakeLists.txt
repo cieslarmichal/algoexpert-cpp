@@ -30,6 +30,7 @@ set(EASY_SOURCES
         src/easy/FindThreeLargestNumbers.cpp
         src/easy/BubbleSort.cpp
         src/easy/InsertionSort.cpp
+        src/easy/SelectionSort.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
