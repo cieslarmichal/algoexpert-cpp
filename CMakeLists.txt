@@ -17,6 +17,7 @@ set(EASY_SOURCES
         src/easy/BranchSums.cpp
         src/easy/NodeDepths.cpp
         src/easy/EvaluateExpressionTree.cpp
+        src/easy/DepthFirstSearch.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
