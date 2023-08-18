@@ -31,6 +31,7 @@ set(EASY_SOURCES
         src/easy/BubbleSort.cpp
         src/easy/InsertionSort.cpp
         src/easy/SelectionSort.cpp
+        src/easy/PalindromeCheck.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
