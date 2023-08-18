@@ -26,6 +26,7 @@ set(EASY_SOURCES
         src/easy/MiddleNode.cpp
         src/easy/NthFibonacci.cpp
         src/easy/ProductSum.cpp
+        src/easy/BinarySearch.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
