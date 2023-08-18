@@ -28,6 +28,7 @@ set(EASY_SOURCES
         src/easy/ProductSum.cpp
         src/easy/BinarySearch.cpp
         src/easy/FindThreeLargestNumbers.cpp
+        src/easy/BubbleSort.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
