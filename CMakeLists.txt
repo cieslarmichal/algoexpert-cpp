@@ -24,6 +24,7 @@ set(EASY_SOURCES
         src/easy/OptimalFreelancing.cpp
         src/easy/RemoveDuplicatesFromLinkedList.cpp
         src/easy/MiddleNode.cpp
+        src/easy/NthFibonacci.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
