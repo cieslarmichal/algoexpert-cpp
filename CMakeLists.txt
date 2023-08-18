@@ -18,6 +18,7 @@ set(EASY_SOURCES
         src/easy/NodeDepths.cpp
         src/easy/EvaluateExpressionTree.cpp
         src/easy/DepthFirstSearch.cpp
+        src/easy/MinimumWaitingTime.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
