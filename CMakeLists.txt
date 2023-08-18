@@ -21,6 +21,7 @@ set(EASY_SOURCES
         src/easy/MinimumWaitingTime.cpp
         src/easy/ClassPhotos.cpp
         src/easy/TandemBicycle.cpp
+        src/easy/OptimalFreelancing.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
