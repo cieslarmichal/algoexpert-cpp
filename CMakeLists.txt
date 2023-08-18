@@ -32,6 +32,7 @@ set(EASY_SOURCES
         src/easy/InsertionSort.cpp
         src/easy/SelectionSort.cpp
         src/easy/PalindromeCheck.cpp
+        src/easy/CaesarCipherEncryptor.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
