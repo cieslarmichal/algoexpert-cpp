@@ -16,6 +16,7 @@ set(EASY_SOURCES
         src/easy/FindClosestValueInBst.cpp
         src/easy/BranchSums.cpp
         src/easy/NodeDepths.cpp
+        src/easy/EvaluateExpressionTree.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
