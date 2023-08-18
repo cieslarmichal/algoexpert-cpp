@@ -26,5 +26,5 @@ int binarySearchHelper(std::vector<int> array, int target, int startIndex, int e
 
 int binarySearch(std::vector<int> array, int target)
 {
-    return binarySearchHelper(array, target, 0, array.size() - 1);
+    return binarySearchHelper(array, target, 0, array.size());
 }
