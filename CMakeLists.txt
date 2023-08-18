@@ -22,7 +22,8 @@ set(EASY_SOURCES
         src/easy/ClassPhotos.cpp
         src/easy/TandemBicycle.cpp
         src/easy/OptimalFreelancing.cpp
-        src/easy/RemoveDuplicatedFromLinkedList.cpp
+        src/easy/RemoveDuplicatesFromLinkedList.cpp
+        src/easy/MiddleNode.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
