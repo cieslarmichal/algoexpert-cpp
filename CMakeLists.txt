@@ -34,6 +34,7 @@ set(EASY_SOURCES
         src/easy/PalindromeCheck.cpp
         src/easy/CaesarCipherEncryptor.cpp
         src/easy/RunLengthEncoding.cpp
+        src/easy/CommonCharacters.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
