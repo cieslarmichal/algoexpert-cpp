@@ -37,6 +37,7 @@ set(EASY_SOURCES
         src/easy/CommonCharacters.cpp
         src/easy/GenerateDocument.cpp
         src/easy/FirstNonRepeatingCharacter.cpp
+        src/easy/Semordnilap.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
