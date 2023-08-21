@@ -39,6 +39,7 @@ set(EASY_SOURCES
         src/easy/FirstNonRepeatingCharacter.cpp
         src/easy/Semordnilap.cpp
         src/easy/ThreeNumberSum.cpp
+        src/easy/SmallestDifference.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
