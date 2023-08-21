@@ -40,6 +40,7 @@ set(EASY_SOURCES
         src/easy/Semordnilap.cpp
         src/easy/ThreeNumberSum.cpp
         src/easy/SmallestDifference.cpp
+        src/easy/MoveElementToEnd.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
