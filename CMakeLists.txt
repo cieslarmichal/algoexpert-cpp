@@ -42,6 +42,7 @@ set(EASY_SOURCES
         src/easy/SmallestDifference.cpp
         src/easy/MoveElementToEnd.cpp
         src/easy/MonotonicArray.cpp
+        src/easy/SpiralTraverse.cpp
         )
 
 add_library(algoexpert-cpp ${EASY_SOURCES})
