@@ -38,11 +38,13 @@ set(EASY_SOURCES
         src/easy/GenerateDocument.cpp
         src/easy/FirstNonRepeatingCharacter.cpp
         src/easy/Semordnilap.cpp
+        )
+
+set(MEDIUM_SOURCES
         src/easy/ThreeNumberSum.cpp
         src/easy/SmallestDifference.cpp
         src/easy/MoveElementToEnd.cpp
         src/easy/MonotonicArray.cpp
-        src/easy/SpiralTraverse.cpp
+        src/easy/LongestPeak.cpp
         )
-
 add_library(algoexpert-cpp ${EASY_SOURCES})
