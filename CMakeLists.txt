@@ -41,10 +41,12 @@ set(EASY_SOURCES
         )
 
 set(MEDIUM_SOURCES
-        src/easy/ThreeNumberSum.cpp
-        src/easy/SmallestDifference.cpp
-        src/easy/MoveElementToEnd.cpp
-        src/easy/MonotonicArray.cpp
-        src/easy/LongestPeak.cpp
+        src/medium/ThreeNumberSum.cpp
+        src/medium/SmallestDifference.cpp
+        src/medium/MoveElementToEnd.cpp
+        src/medium/MonotonicArray.cpp
+        src/medium/LongestPeak.cpp
+        src/medium/ArrayOfProducts.cpp
+        src/medium/FirstDuplicateValue.cpp
         )
 add_library(algoexpert-cpp ${EASY_SOURCES})
