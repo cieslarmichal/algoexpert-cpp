@@ -52,5 +52,6 @@ set(MEDIUM_SOURCES
         src/medium/BestSeat.cpp
         src/medium/ZeroSumSubarray.cpp
         src/medium/MissingNumbers.cpp
+        src/medium/MajorityElement.cpp
         )
 add_library(algoexpert-cpp ${EASY_SOURCES})
