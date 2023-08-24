@@ -51,5 +51,6 @@ set(MEDIUM_SOURCES
         src/medium/MergeOverlappingIntervals.cpp
         src/medium/BestSeat.cpp
         src/medium/ZeroSumSubarray.cpp
+        src/medium/MissingNumbers.cpp
         )
 add_library(algoexpert-cpp ${EASY_SOURCES})
