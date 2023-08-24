@@ -48,5 +48,6 @@ set(MEDIUM_SOURCES
         src/medium/LongestPeak.cpp
         src/medium/ArrayOfProducts.cpp
         src/medium/FirstDuplicateValue.cpp
+        src/medium/MergeOverlappingIntervals.cpp
         )
 add_library(algoexpert-cpp ${EASY_SOURCES})
