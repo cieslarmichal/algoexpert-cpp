@@ -49,5 +49,6 @@ set(MEDIUM_SOURCES
         src/medium/ArrayOfProducts.cpp
         src/medium/FirstDuplicateValue.cpp
         src/medium/MergeOverlappingIntervals.cpp
+        src/medium/BestSeat.cpp
         )
 add_library(algoexpert-cpp ${EASY_SOURCES})
