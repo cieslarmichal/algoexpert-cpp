@@ -53,5 +53,6 @@ set(MEDIUM_SOURCES
         src/medium/ZeroSumSubarray.cpp
         src/medium/MissingNumbers.cpp
         src/medium/MajorityElement.cpp
+        src/medium/SweetAndSavory.cpp
         )
 add_library(algoexpert-cpp ${EASY_SOURCES})
